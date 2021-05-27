@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+</head>
+<body>
+
+    <script>
+
+        // function histing
+        deepSleep();
+
+        // 함수 선언(declare)
+        function deepSleep(){
+            console.log('오늘 늦잠 잠');
+
+        }
+        // 함수의 재사용성
+        // 반복을 줄여준다
+        // 일관성이 유지가 된다
+        // 버그 발생률이 떨어진다
+        // 추상화 개념이다
+        wakeUp();
+        fastWash();
+
+        function wakeUp() {
+            console.log('일어나시죠?');
+        }
+        function fastWash() {
+            console.log("1분만에 씻기");
+        }
+    </script>
+
+</body>
+</html>
